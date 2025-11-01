@@ -1,62 +1,51 @@
-/* styles.css
-	 Project-specific styles (layout via Flexbox + small customizations)
-*/
-
-/* Make the page use Flexbox: body contains header, main, footer in a column */
 body {
 	display: flex;
-	flex-direction: column; /* header, main, footer stacked */
+	flex-direction: column;
 	min-height: 100vh;
 }
 
-/* main contains article and aside as a row */
 main {
 	display: flex;
-	flex-direction: row; /* article left, aside right */
-	flex: auto; /* keep automatic sizing for main */
-	min-height: 0; /* allow children to scroll when overflow */
+	flex-direction: row;
+	flex: auto;
+	min-height: 0;
 }
 
-/* Article should take 2/3 and aside 1/3 of the available width */
 article {
-	flex: 2; /* 2 parts */
-	overflow-y: auto; /* allow vertical scrolling when needed */
-	min-width: 0; /* prevents overflow from long content */
-}
-
-aside {
-	flex: 1; /* 1 part */
-	overflow-y: auto; /* allow vertical scrolling when needed */
+	flex: 2;
+	overflow-y: auto;
 	min-width: 0;
 }
 
-/* Ensure header and footer span full width */
+aside {
+	flex: 1;
+	overflow-y: auto;
+	min-width: 0;
+}
+
 header, footer {
 	width: 100%;
 }
 
-/* Small visual improvements (allowed non-positioning styling) */
 header ul {
 	padding-left: 15px;
 }
+
 header li.logo {
 	margin-right: 10px;
 }
 
-/* Example logo styling if you add the .logo item */
 header li.logo {
 	font-size: 40px;
 	line-height: 1;
 }
 
-/* Make images responsive inside article */
 article img {
 	max-width: 100%;
 	height: auto;
 	display: block;
 }
 
-/* Small responsive tweak for narrow screens: stack main children */
 @media (max-width: 800px) {
 	main {
 		flex-direction: column;
@@ -66,5 +55,3 @@ article img {
 		width: 100%;
 	}
 }
-
-
