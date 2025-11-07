@@ -176,7 +176,7 @@ This implementation is based on the Figma design file:
 
 ## Author
 
-Winebald Banituze
+[Winebald Banituze](https://github.com/banituze)
 
 ## License
 
