@@ -94,7 +94,6 @@ css_advanced/
 **Effects:**
 - Smooth transitions (0.3s ease)
 - Hover effects on buttons and links
-- Box shadows on buttons
 - Gradient backgrounds
 - Transform effects
 
