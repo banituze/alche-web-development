@@ -131,8 +131,7 @@ The following images should be placed in an `images/` folder:
 
 ## Design Reference
 
-This implementation is based on the Figma design file:
-[SmileSchool Figma Design](https://www.figma.com/design/NBnpjBTcwaUP2pQ3oj3SpD/Homepage?node-id=0-1&t=hYQM8l7vcPLsWiXv-1)
+![SmileSchool Figma Design](https://i.imgur.com/1n6Gwsl.jpeg)
 
 ## Responsive Breakpoints
 
