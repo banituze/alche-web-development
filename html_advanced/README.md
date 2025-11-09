@@ -70,7 +70,7 @@ html_advanced/
 ## Design Reference
 
 This implementation is based on the Figma design file:
-[SmileSchool Figma Design](https://i.imgur.com/1n6Gwsl.jpeg)
+![SmileSchool Figma Design](https://i.imgur.com/1n6Gwsl.jpeg)
 
 ## Browser Compatibility
 
