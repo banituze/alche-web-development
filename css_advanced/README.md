@@ -176,10 +176,6 @@ The following images should be placed in an `images/` folder:
 
 [Winebald Banituze](https://github.com/banituze)
 
-## License
-
-This project is part of an educational curriculum.
-
 ## Live Demo
 
 https://banituze.github.io/alche-web-development/css_advanced
